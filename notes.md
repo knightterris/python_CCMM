@@ -1,0 +1,72 @@
+#lesson 2
+type()=> built-in function
+number -> int, float or complex
+in division, normal -> 5/5 => 1.0 (default returns float)
+with integer Division -> 5//5 => 1
+
+indexing -> 2**3 => 8 (Exponents)
+power operator ** -> 2**3 = 8
+
+to find remainder
+% -> a % b gives the remainder of a (% is called modulus)
+
+how operator works
+BIDMAS
+Brackets - always go inside first
+Indices / Exponents - next
+Multiplication and Division - left to right
+Addition and Subtraction - left to right
+Shift operators - left to right
+
+#lesson 3 
+string data type => "" or ''
+greet="hello"
+greet[4] = 'o'
+also supports negative indexing greet[-4] = 'e'
+
+greet[0:2]= "he"
+
+>>> str1="hello"
+>>> str2="python"
+str1*4 => repeats the string
+
+greet.upper() => changes the lower case to upper case without effecting the original data
+to completely change the original data (overwrite) = greet=greet.upper()
+
+
+names="aungaung,kyawkyaw,ayeaye"
+names.split(',') => ['aungaung','kyawkyaw','ayeaye']
+
+** IN PYTHON, EVERYTHING CAN BE CONSIDERED AS OBJECT **
+
+greet="helloworld"
+len(greet)=10
+
+#lesson 4 (Lists)
+
+lists => to store data
+
+nums=[1,2,3,4,5,6]
+
+to add two lists 
+
+num1=[1,2,3]
+num2=[4,5,6]
+num1+num2=> [1,2,3,4,5,6]
+
+overwrite
+
+num1[1]=200
+num1 = [1,200,3]
+
+num1.append(7) => adds an item at last of list
+num1.extend([8,9]) => adds multiple items at last of list
+num1.insert(1,100) => inserts an item in specific position
+
+num1.pop() => delete the last item and returns.
+num1.remove() => deletes the specific item
+del(num1[0]) => also can be used for deleting the item from list
+
+multidimensional lists
+list=[1,2,"hello",1.2,[1,2,3]]
+list[4][2] = gives 3
