@@ -16,3 +16,5 @@ r=int(input("Enter the radius value: "))
 # TypeError: can only concatenate str (not "float") to str
 area=str(PI*r**2)
 print("The area of the circle is: "+area)
+
+# above procedure is called type casting.

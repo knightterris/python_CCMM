@@ -70,3 +70,5 @@ del(num1[0]) => also can be used for deleting the item from list
 multidimensional lists
 list=[1,2,"hello",1.2,[1,2,3]]
 list[4][2] = gives 3
+
+lessons 6 format string
